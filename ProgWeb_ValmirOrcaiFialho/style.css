@@ -1,0 +1,71 @@
+/* Estilo global minimalista */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+}
+
+/* Cabeçalho e Navegação */
+header {
+    padding: 2rem 0;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #555;
+    transition: color 0.3s ease; /* Transição suave na cor do link */
+}
+
+nav a:hover {
+    color: #000; /* Destaca ao passar o mouse */
+}
+
+/* Conteúdo principal */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* Rodapé */
+footer {
+    margin-top: 2rem;
+    padding: 1rem 0;
+    background: #eee;
+}
+
+/* Formulário */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Botões */
+button {
+    padding: 10px 20px;
+    border: none;
+    background: #555;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+    transition: background 0.3s ease; /* Efeito suave de hover */
+}
+
+button:hover {
+    background: #000; /* Altera a cor ao passar o mouse */
+}
+
+/* Imagem Responsiva */
+img {
+    max-width: 100%;
+    height: auto;
+}
